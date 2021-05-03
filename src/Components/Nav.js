@@ -1,18 +1,18 @@
 import React from 'react';
 import '../App.css';
-import { Link } from 'react-router-dom';
+import  Linkk  from 'react-router-dom/Link';
 
 function Nav(){
     return (
         <nav>
             <h3>Logo</h3>
             <ul>
-                <Link to="/">
+                <Linkk to="/">
                   <li>Home</li>
-                </Link>
-                <Link to="/about">
+                </Linkk>
+                <Linkk to="/about">
                   <li>About</li>
-                </Link>
+                </Linkk>
             </ul>
         </nav>
     );
